@@ -1,70 +1,121 @@
-# Getting Started with Create React App
+#React Todo-List 
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+A simple and efficient To-Do App built with React, designed to help you manage tasks seamlessly.
 
-## Available Scripts
+## Features
 
-In the project directory, you can run:
+- **Add Tasks**: Quickly add new tasks to your list.
+- **Mark as Complete**: Check off tasks as you complete them.
+- **Delete Tasks**: Remove tasks you no longer need.
+- **Responsive Design**: Works on desktop and mobile devices.
+- **Icons**: Enhanced user interface using `react-icons`.
 
-### `npm start`
+## Tech Stack
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+- **React**: Frontend library for building the user interface.
+- **React Icons**: For adding stylish icons to enhance the app's appearance.
+- **Testing Libraries**: Includes Jest and React Testing Library for robust unit testing.
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+## Installation
 
-### `npm test`
+1. Clone the repository:
+   ```bash
+   git clone https://github.com/your-username/to-do-app.git
+   ```
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+2. Navigate to the project directory:
+   ```bash
+   cd to-do-app
+   ```
 
-### `npm run build`
+3. Install dependencies:
+   ```bash
+   npm install
+   ```
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+4. Start the development server:
+   ```bash
+   npm start
+   ```
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+5. Open [http://localhost:3000](http://localhost:3000) to view the app in your browser.
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+## Scripts
 
-### `npm run eject`
+- **Start**: Launch the development server.
+  ```bash
+  npm start
+  ```
+- **Build**: Create an optimized production build.
+  ```bash
+  npm run build
+  ```
+- **Test**: Run the test suite.
+  ```bash
+  npm test
+  ```
+- **Eject**: Eject the configuration (use with caution).
+  ```bash
+  npm run eject
+  ```
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+## Dependencies
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+The app leverages the following dependencies:
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+- `react`: ^18.2.0
+- `react-dom`: ^18.2.0
+- `react-icons`: ^4.4.0
+- `react-scripts`: 5.0.1
+- `@testing-library/react`: ^13.3.0
+- `@testing-library/jest-dom`: ^5.16.4
+- `@testing-library/user-event`: ^13.5.0
+- `web-vitals`: ^2.1.4
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+## Folder Structure
 
-## Learn More
+```
+├── public
+│   ├── index.html
+│   └── ...
+├── src
+│   ├── components
+│   │   ├── TaskList.js
+│   │   ├── TaskItem.js
+│   │   └── ...
+│   ├── App.js
+│   ├── index.js
+│   └── ...
+├── package.json
+└── README.md
+```
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+## Contributing
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+Contributions are welcome! If you'd like to contribute:
 
-### Code Splitting
+1. Fork the repository.
+2. Create a new branch:
+   ```bash
+   git checkout -b feature-name
+   ```
+3. Commit your changes:
+   ```bash
+   git commit -m "Add new feature"
+   ```
+4. Push to your branch:
+   ```bash
+   git push origin feature-name
+   ```
+5. Open a pull request.
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+## License
 
-### Analyzing the Bundle Size
+This project is licensed under the MIT License. See the LICENSE file for details.
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+## Acknowledgements
 
-### Making a Progressive Web App
+- React documentation: [https://reactjs.org/docs](https://reactjs.org/docs)
+- React Icons: [https://react-icons.github.io/react-icons/](https://react-icons.github.io/react-icons/)
+- Testing Library: [https://testing-library.com/](https://testing-library.com/)
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
